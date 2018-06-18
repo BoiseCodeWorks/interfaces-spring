@@ -16,12 +16,15 @@ namespace console_library
             Book TheHobbit = new Book("J.R.R. Tolkien", "The Hobbit");
             Book LWW = new Book("C.S. Lewis", "The Lion, The Witch, and the Wardrobe");
             Book HPSS = new Book("J.K. Rowling", "Harry Potter and the Sorcerer's Stone");
+            Magazine time = new Magazine("Person of the Year", "Time");
+            Newspaper IDs = new Newspaper("Sunday Edition", "Idaho Statesman");
 
             //Add Books to library
             myLibrary.AddBook(WTSE);
             myLibrary.AddBook(TheHobbit);
             myLibrary.AddBook(LWW);
             myLibrary.AddBook(HPSS);
+            myLibrary.AddBook(time);
 
             //set starting menu
             Enum activeMenu = Menus.CheckoutBook;
